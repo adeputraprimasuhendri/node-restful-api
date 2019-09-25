@@ -19,15 +19,15 @@ const SClassSchema = mongoose.Schema({
     },
     MemberID:{
         type:String,
-        require:true
+        default:''
     },
     SchoolID:{
         type:String,
-        require:true
+        default:''
     },
     SYearID:{
         type:String,
-        require:true
+        default:''
     }
 });
 

@@ -23,31 +23,31 @@ const AbsentSchema = mongoose.Schema({
     },
     MemberID:{
         type:String,
-        require:true
+        default:''
     },
     SClassID:{
         type:String,
-        require:true
+        default:''
     },
     SYearID:{
         type:String,
-        require:true
+        default:''
     },
     SchoolID:{
         type:String,
-        require:true
+        default:''
     },
     StudentID:{
         type:String,
-        require:true
+        default:''
     },
     SubjectID:{
         type:String,
-        require:true
+        default:''
     },
     TeacherID:{
         type:String,
-        require:true
+        default:''
     }
 });
 

@@ -43,7 +43,7 @@ const SchoolSchema = mongoose.Schema({
     },
     MemberID:{
         type:String,
-        require:true
+        default:''
     }
 });
 

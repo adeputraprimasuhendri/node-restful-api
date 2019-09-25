@@ -19,15 +19,15 @@ const TeacherSchema = mongoose.Schema({
     },
     MemberID:{
         type:String,
-        require:true
+        default:''
     },
     SchoolID:{
         type:String,
-        require:true
+        default:''
     },
     SubjectID:{
         type:String,
-        require:true
+        default:''
     }
 });
 
