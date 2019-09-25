@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 const SchoolSchema = mongoose.Schema({
+    NPSN:{
+        type:String,
+        require:true
+    },
     name:{
         type:String,
         require:true

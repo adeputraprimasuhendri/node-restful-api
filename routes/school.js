@@ -15,6 +15,7 @@ router.get('/', async (req, res) => {
 //CREATE DATA
 router.post('/', async (req, res) => {
     const data = new Data({
+        npsn: req.body.npsn,
         name: req.body.name,
         address: req.body.address,
         province: req.body.province,
@@ -58,6 +59,7 @@ router.patch('/:dataID', async (req, res) => {
     try {
         const dataUpdate = await Data.updateOne({ _id: req.params.dataID }, {
             $set: {
+                npsn: req.body.npsn,
                 name: req.body.name,
                 address: req.body.address,
                 province: req.body.province,

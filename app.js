@@ -13,6 +13,7 @@ const StudentRoute  = require('./routes/student');
 const AbsentRoute  = require('./routes/absent');
 const SubjectRoute  = require('./routes/subject');
 const TeacherRoute  = require('./routes/teacher');
+const MemberRoute  = require('./routes/member');
 require('dotenv').config();
 
 //MIDDLEWARE
@@ -26,6 +27,7 @@ app.use('/student', StudentRoute);
 app.use('/absent', AbsentRoute);
 app.use('/subject', SubjectRoute);
 app.use('/teacher', TeacherRoute);
+app.use('/member', MemberRoute);
 
 //ROUTE
 app.get('/', (req, res) => {
