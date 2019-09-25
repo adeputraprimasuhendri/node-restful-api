@@ -7,3 +7,6 @@
 - npm install body-parser
 - npm install mongoose
 - npm install express nodemon
+
+# Run App
+- npm start
