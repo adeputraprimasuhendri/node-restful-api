@@ -1,4 +1,4 @@
-# Node Js Restful API
+# Node Js Restful API Aplikasi Sekolah
  Restful API with Node Js & MonggoDb
 
 # Requirements
