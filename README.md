@@ -7,6 +7,7 @@
 - npm install body-parser
 - npm install mongoose
 - npm install express nodemon
+- npm install jsonwebtoken --save
 
 # Run App
 - npm start
