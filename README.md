@@ -11,3 +11,6 @@
 
 # Run App
 - npm start
+
+# You Can Try
+http://157.245.144.81:8181/
